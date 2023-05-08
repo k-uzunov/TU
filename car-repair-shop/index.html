@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cars</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<link rel="stylesheet" type="text/css" href="client/css/default.css">
+	<script type="text/javascript" src="client/js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="client/js/jquery-rest.js"></script>
+	<script type="text/javascript" src="client/js/client-render.js"></script>
+	<script type="text/javascript" src="client/js/client.js"></script>
+</head>
+<body>
+	<table class='layout'>
+		
+		<tr>
+			<td class='panel'>
+			<h1>Cars</h1>
+			<div id='cars'></div>
+			<p>
+				<a href='#' class='add_icon car-add'>Add new car</a>
+				<a href='#' class='refresh_icon cars-refresh'>Refresh</a>
+			</p>
+			<div id='cars-messages'></div>
+			</td>
+			
+			<td class='panel'>
+				<div id='car-edit'></div>
+				<div id='car-messages'></div>
+			</td>
+		</tr>
+	
+		<tr>
+			<td class='panel'>
+				<h1>Problems</h1>
+				<div id='problems'>
+					<p class='info_icon'>Click a car to view its problems.</p>
+				</div>
+				<div id='problems-messages'></div>
+			</td>
+			<td class='panel'>
+				<div id='problem-edit'></div>
+				<div id='problem-messages'></div>
+			</td>
+		</tr>
+		
+	</table>
+	
+</body>
+</html>
